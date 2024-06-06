@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>nttdata.pt</groupId>
     <artifactId>somaHorasTriskell</artifactId>
-    <version>1.0</version>
+    <version>1.2</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -34,22 +34,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-<!--            <plugin>-->
-<!--                &lt;!&ndash; Build an executable JAR &ndash;&gt;-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-jar-plugin</artifactId>-->
-<!--                <version>3.1.0</version>-->
-<!--                <configuration>-->
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <addClasspath>true</addClasspath>-->
-<!--                            <classpathPrefix>libs/</classpathPrefix>-->
-<!--                            <mainClass>main.SumValuesFromFiles</mainClass>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
         </plugins>
     </build>
 
@@ -84,6 +68,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
             <version>4.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>me.tongfei</groupId>
+            <artifactId>progressbar</artifactId>
+            <version>0.10.1</version>
         </dependency>
 
 
