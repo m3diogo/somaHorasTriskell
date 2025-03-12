@@ -93,7 +93,7 @@ public class SumValuesFromFiles {
     }
 
     public static double getCellValue(String fileName, String sheetName, String Range){
-        String password = "NTT DATA"; // Change the sheet password as per your requirement
+        String password = "ntt"; // Change the sheet password as per your requirement
 
         Workbook workbook = new Workbook();
         workbook.loadFromFile(fileName);
